@@ -25,7 +25,7 @@ describe Game do
 
   it 'should know when player one has won' do
     allow(player2).to receive(:choice).and_return :scissors
-    expect(game.winner?(player1, player2)).to eq "Player One has won!"
+    expect(game.winner?(player1, player2)).to eq "Player Two has won!"
   end
 
   it 'should know when player two has won' do
