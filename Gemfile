@@ -10,5 +10,5 @@ group :development, :test do
   gem 'rspec'
   gem 'shotgun'
   gem 'simplecov', :require => false, :group => :test
-  gem "codeclimate-test-reporter", require: nil
+  gem 'codeclimate-test-reporter', require: nil
 end

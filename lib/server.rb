@@ -5,9 +5,9 @@ require_relative 'player'
 require_relative 'game'
 
 class Rps < Sinatra::Base
-  set :views, Proc.new { File.join(root, '..', 'views') }
+  set :views, proc { File.join(root, '..', 'views') }
 
   enable :sessions
 
-  run! if app_file == $Rps
+  run! if app_file == $0
 end
