@@ -1,5 +1,4 @@
 class Player
-
   attr_reader :name, :choice
 
   def initialize(name)
@@ -11,7 +10,6 @@ class Player
   end
 
   def computer_choice
-    @choice = ["paper", "rock","scissors"].sample
+    @choice = %w(paper rock scissors).sample
   end
-
 end

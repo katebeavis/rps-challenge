@@ -1,17 +1,14 @@
+require 'spec_helper'
 require 'player'
 
 describe Player do
-  let(:player){ Player.new("Kate") }
+  subject {  described_class.new('Kate') }
 
-  it 'should let a player have a name' do
-    expect(player.name).to eq "Kate"
+  it 'lets a player have a name' do
+    expect(subject.name).to eq 'Kate'
   end
 
-  it 'should let a player make a choice' do
-    expect(player.make_choice(:rock)).to eq :rock
+  it 'lets a player make a choice' do
+    expect(subject.make_choice(:rock)).to eq :rock
   end
-
-
-
-
 end
