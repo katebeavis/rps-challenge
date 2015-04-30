@@ -16,7 +16,7 @@ Our brief was as follows:
 a winner will be declared
 
 ## Objectives
-To get an understanding of Sinatra, how a server works and how to test in Cucumber.
+To get an understanding of the Sinatra framework including sessions, how a server works and how to feature test in Cucumber & Capybara
 
 ## Technology
 - Ruby
