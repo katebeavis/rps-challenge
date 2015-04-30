@@ -1,31 +1,43 @@
-# Challenge: Rōnin Badge Test
+[![Code Climate](https://codeclimate.com/github/katebeavis/inject-challenge/badges/gpa.svg)](https://codeclimate.com/github/katebeavis/inject-challenge) [![Test Coverage](https://codeclimate.com/github/katebeavis/inject-challenge/badges/coverage.svg)](https://codeclimate.com/github/katebeavis/inject-challenge) [![Build Status](https://travis-ci.org/katebeavis/inject-challenge.svg?branch=master)](https://travis-ci.org/katebeavis/inject-challenge)
+# Rock Paper Scissors Challenge
 
-Knowing how to build web applications is getting us almost there as web developers!
+The Rock Paper Scissors challenge was the third weekend challenge at Makers Academy.
 
-The Makers Academy Marketing Array ( **MAMA** ) have asked us to provide a game for them. Their daily grind is pretty tough and they need time to steam a little.
+Our brief was as follows:
 
-Your task is to provide a _Rock, Paper, Scissors_ game for them so they can play on the web with the following features:
+> The Makers Academy Marketing Array ( MAMA ) have asked us to provide a game for them. Their daily grind is pretty tough and they need time to steam a little.
+
+> Your task is to provide a Rock, Paper, Scissors game for them so they can play on the web with the following features:
 
 - the marketeer has to enter their name before the game
 - the marketeer will be presented the choices (rock, paper and scissors)
 - the marketeer can choose one option
 - the game will choose a random option
-- a winner will be declared
+a winner will be declared
 
-As always you can use google your notes and everything else. This is a challenge for you and you only!
+## Objectives
+To get an understanding of Sinatra, how a server works and how to test in Cucumber.
 
-**Rōnin BANZAI!!!!**
+## Technology
+- Ruby
+- Sinatra
+- Cucumber
+- Capybara
+- Shotgun
+- Rspec
 
-## Bonus 1: Multiplayer
+## To Run
+```
+$ git clone https://github.com/katebeavis/rps-challenge.git
+$ cd rps-challenge
+$ bundle install
+$ rackup
+Visit http://localhost:9292
+```
 
-Change the game so that two marketeers can play against each other ( _yes there are two of them_ ).
+## To Run Tests
+```
+$ rspec
+$ cucumber
+```
 
-## Bonus 2: Rock, Paper, Scissors, Spock, Lizard
-
-Use the _special_ rules ( _you can find them here http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock_ )
-
-## Basic Rules
-
-- Rock beats Scissors
-- Scissors beats Paper
-- Paper beats Rock
