@@ -7,7 +7,6 @@ class Game
 
   def add_player(player)
     @players << player
-    p players
   end
 
   def player_count
