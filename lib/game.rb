@@ -7,6 +7,7 @@ class Game
 
   def add_player(player)
     @players << player
+    p players
   end
 
   def player_count
@@ -17,13 +18,13 @@ class Game
     if player1.choice == player2.choice
       'It\'s a draw!'
     elsif player1.choice == 'scissors' && player2.choice == 'paper'
-      'Player One has won!'
+      "#{player1.name} wins!"
     elsif player1.choice == 'paper' && player2.choice == 'rock'
-      'Player One has won!'
+      "#{player1.name} wins!"
     elsif player1.choice == 'rock' && player2.choice == 'scissors'
-      'Player One has won!'
+      "#{player1.name} wins!"
     else
-      'Player Two has won!'
+      "#{player2.name} wins!"
     end
   end
 end

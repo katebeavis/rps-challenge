@@ -3,6 +3,8 @@ require './lib/game'
 class Rps < Sinatra::Base
   game = Game.new
 
+  enable :sessions
+
   get '/' do
     erb :index
   end
@@ -17,7 +19,10 @@ class Rps < Sinatra::Base
     else
       @player1 = Player.new(@name)
       game.add_player(@player1)
-      @player2 = Player.new('AI')
+      @player2 = Player.new('Computer')
+      session[:me] = @player1
+      session[:ai] = @player2
+      session[:game] = @game
       game.add_player(@player2)
       erb :index
     end
