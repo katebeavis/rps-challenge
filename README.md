@@ -1,4 +1,4 @@
-[![Code Climate](https://codeclimate.com/github/katebeavis/inject-challenge/badges/gpa.svg)](https://codeclimate.com/github/katebeavis/inject-challenge) [![Test Coverage](https://codeclimate.com/github/katebeavis/inject-challenge/badges/coverage.svg)](https://codeclimate.com/github/katebeavis/inject-challenge) [![Build Status](https://travis-ci.org/katebeavis/inject-challenge.svg?branch=master)](https://travis-ci.org/katebeavis/inject-challenge)
+[![Code Climate](https://codeclimate.com/github/katebeavis/rps-challenge/badges/gpa.svg)](https://codeclimate.com/github/katebeavis/rps-challenge) [![Test Coverage](https://codeclimate.com/github/katebeavis/rps-challenge/badges/coverage.svg)](https://codeclimate.com/github/katebeavis/rps-challenge) [![Build Status](https://travis-ci.org/katebeavis/rps-challenge.svg?branch=master)](https://travis-ci.org/katebeavis/rps-challenge)
 # Rock Paper Scissors Challenge
 
 The Rock Paper Scissors challenge was the third weekend challenge at Makers Academy.
