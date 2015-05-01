@@ -15,7 +15,7 @@ class Game
 
   def winner?(player1, player2)
     case
-    when player1.choice == player2.choice then'It\'s a draw!'
+    when player1.choice == player2.choice then 'It\'s a draw!'
     when player1.choice == 'scissors' && player2.choice == 'paper' then "#{player1.name} wins!"
     when player1.choice == 'paper' && player2.choice == 'rock' then "#{player1.name} wins!"
     when player1.choice == 'rock' && player2.choice == 'scissors' then "#{player1.name} wins!"

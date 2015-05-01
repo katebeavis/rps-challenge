@@ -2,8 +2,7 @@ require 'sinatra/base'
 require './lib/player'
 require './lib/controllers/application'
 class Rps < Sinatra::Base
-
-enable :sessions
+  enable :sessions
 
   get '/player' do
     erb :player
