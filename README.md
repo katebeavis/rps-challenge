@@ -15,8 +15,11 @@ Our brief was as follows:
 - the game will choose a random option
 a winner will be declared
 
+## Heroku
+[Rock Paper Scissors](https://rps-makers.herokuapp.com)
+
 ## Objectives
-To further our understanding of the Sinatra framework including sessions, how a server works and how to feature test in Cucumber & Capybara.
+To further our understanding of the Sinatra framework including sessions, how a server works and how to feature test in Cucumber & Capybara. Also how to deploy an app to Heroku! 
 
 ## Technology
 - Ruby
@@ -25,6 +28,7 @@ To further our understanding of the Sinatra framework including sessions, how a 
 - Capybara
 - Shotgun
 - Rspec
+- Heroku
 
 ## To Run
 ```
