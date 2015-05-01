@@ -6,7 +6,7 @@ require 'game'
 describe Game do
   subject { described_class.new }
   let(:player1) { double :player1, name: 'Kate' }
-  let(:player2) { double :player2, name: 'Computer' }
+  let(:player2) { double :player2, name: 'Player Two' }
 
   context 'adding players to the game' do
     it 'is able to add a player to the subject' do
@@ -60,7 +60,7 @@ describe Game do
 
     it 'knows when player two has won' do
       allow(player2).to receive(:choice).and_return 'paper'
-      expect(subject.winner?(player1, player2)).to eq 'Computer wins!'
+      expect(subject.winner?(player1, player2)).to eq 'Player Two wins!'
     end
   end
 end

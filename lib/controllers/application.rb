@@ -19,7 +19,7 @@ class Rps < Sinatra::Base
     else
       @player1 = Player.new(@name)
       game.add_player(@player1)
-      @player2 = Player.new('Computer')
+      @player2 = Player.new('Player Two')
       session[:me] = @player1
       session[:ai] = @player2
       session[:game] = @game
